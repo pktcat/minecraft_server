@@ -1,0 +1,11 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# AWS account ID / VPC ID などの環境固有情報が含まれるため除外
+cdk.context.json
